@@ -2,14 +2,16 @@
 
 ## Technologies used
 
-[x] **Express**
+- **Express**
 
-[x] **Sequelize**
+- **Sequelize**
 
-[x] **Express-handlebars**. Default template engine. It can be change to any desired template engine
+- **Express-handlebars**. Default template engine. It can be change to any desired template engine
 
-[x] Mysql. This is the default database being used. It is highly customizable so it can be changed to any relational database.
+- **MySQL**. This is the default database being used. It is highly customizable so it can be changed to any relational database.
 
-A scable project structure for building express rest API
+### *A scable project structure for building express rest API*
+---
 
-**Author**: Shaban Hassan (@shaban00)
+
+**Author**: Shaban Mohammedsaani Hassan (@shaban00)

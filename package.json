@@ -4,7 +4,7 @@
 	"description": "Express API project structure",
 	"main": "src/app.js",
 	"repository": "https://github.com/shaban00/express_api.git",
-	"author": "shaban00 <shaban00hassan@gmail.com>",
+	"author": "Shaban Mohammedsaani Hassan <shaban00hassan@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"start": "babel-node src/app.js",
@@ -24,7 +24,6 @@
 		"csurf": "^1.11.0",
 		"dotenv": "^8.2.0",
 		"express": "^4.17.1",
-		"express-handlebars": "^4.0.3",
 		"express-session": "^1.17.0",
 		"helmet": "^3.22.0",
 		"jsonwebtoken": "^8.5.1",

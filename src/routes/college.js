@@ -1,3 +1,5 @@
+/* __author__ = Shaban Mohammedsaani Hassan (@shaban00) */
+
 import express from "express";
 import { addCollegeSchema } from "../schemas/college";
 import { AddCollegeController, GetAllCollegesController } from "../controllers/college";
@@ -9,12 +11,12 @@ const router = express.Router();
 
 /* Route for adding college */
 router.post("/college", SchemaValidator(addCollegeSchema), (req, res) => {
-	AddCollegeController(req, res, req.body);
+    AddCollegeController(req, res, req.body);
 });
 
 /* Route for getting all colleges */
 router.get("/colleges", (req, res) => {
-	GetAllCollegesController(req, res);
+    GetAllCollegesController(req, res);
 });
 
 export default router;
