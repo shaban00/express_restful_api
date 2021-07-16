@@ -1,9 +1,9 @@
 /* __author__ = Shaban Mohammedsaani Hassan (@shaban00) */
 
-import uuid4 from "uuid/v4";
+import { v4 as uuidv4 } from "uuid";
 
 const GenerateUUID = () => {
-    return uuid4();
+    return uuidv4();
 };
 
 export default GenerateUUID;
